@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipő bolt</title>
+    <style>
+    body {background-color: powderblue;}
+    .first {
+        padding: 2px;
+        margin-bottom: 10px;
+        background-color: red;
+        color: #fff;
+    }
+
+    .second {
+        padding: 2px;
+        margin-bottom: 10px;
+        background-color: blue;
+        color: #fff;
+    }
+
+    </style>
+</head>
+<body>
+
+    <h3>Feladat</h3>
+    <p>Az alábbiakban egy cipő webshop forgalmával kapcsolatban található néhány adat. Programozási tételek alkalmazásával válaszoljon az adatokra vonatkozó kérdésekre.</p>
+    <ul>
+        <li>
+            <h3>1. A cipők beszállítási dátumai</h3>
+            <p>Generáljunk 6 véletlen dátumot az aktuális, vagy az előző hónapból!
+                05.10, 06.05, 06.21, 06.26, 05.19, 06.21</p>
+                <div> a, Mikor volt az eddigi utolsó beszállítás?</div>
+                <div> b, Volt-e már beszállítás ebben a hónapban?</div>
+                <div> c, Hány beszállítás van még előre jelezve?</div>
+                <div> d, Volt-e, vagy lesz-e több beszállítás egyazon napon?</div>
+        </li>
+    </ul>
+
+    <div id="honapok"></div>
+    <div id="a-1" class="first"></div>
+    <div id="b-1" class="first"></div>
+    <div id="c-1" class="first"></div>
+    <div id="d-1" class="first"></div>
+
+    <ul>
+        <li>
+            <h3>2. A megrendelt cipők méretei (külön a férfi, külön a női)</h3>
+            <p>Generáljon 12-12 véletlen cipőméretet, és külön tömbben tárolja el őket! F[ ] tömbben a férfi (38-46 méret­tarto­mány­ban), N[ ] tömbben a női cipőket (35-42 méret­tarto­mány­ban)!</p>
+                <div> a, Mekkora a rendelt legnagyobb női cipő?</div>
+                <div> b, Mennyi a férfi és a női cipők méretének átlagának különbsége?</div>
+                <div> c, A női cipők hány százalék 40-es méret feletti?</div>
+                <div> d, Mindkét nemet összesítve melyik méretből fogyott a legtöbb?</div>
+        </li>
+    </ul>
+
+    <div id="a-2" class="second"></div>
+    <div id="b-2" class="second"></div>
+    <div id="c-2" class="second"></div>
+    <div id="d-2" class="second"></div>
+
+    <ul>
+        <li>
+            <h3>3. A tegnapi rendelések (vásárlások) időpontjai</h3>
+            <p>Generáljunk rendelési időpontokat, ügyelve rá, hogy azok időrendben sorban legyenek! Két rendelési időpont között min. 1 perc, max. 3 óra legyen a különbség.
+                01:28 01:44 03:05 06:04 07:0 08:04 10:06 11:15 12:32 14:27 17:06 17:35 19:28 20:14 20:51 21:58 22:16 22:35 23:29</p>
+                <div> a, Hányszor vásároltak dél és este 8 között?</div>
+                <div> b, Adtak-e le rendelést hajnali 3 és 4 óra között?</div>
+                <div> c, Mikor volt az első délutáni vásárlás?</div>
+                <div> d, Átlagosan hány percenként érkezett rendelés?</div>
+        </li>
+    </ul>
+
+    <div id="idopontok"></div>
+
+    <div id="a-3" class="second"></div>
+    <div id="b-3" class="second"></div>
+    <div id="c-3" class="second"></div>
+    <div id="d-3" class="second"></div>
+
+    <ul>
+        <li>
+            <h3>4. A kosárérték, vagyis egy adott rendelés összérték</h3>
+            <p>Generáljunk vásárlási összegeket - annyi darabot, ahány vásárlás történt tegnap! Az összegek kialakításánál tartsuk szem előtt, hogy</p>
+            <p>minden cipő ára 990.- Ft-ra végződik;<br>
+                a cipők ára 5.990.- és 24.990.- Ft közötti lehet;<br>
+                egy vásárlásnál legfeljebb 4 pár cipőt rendeltek;<br>
+                leggyakrabban 1 cipőt vettek, és a 2, 3, 4 cipő vásárlásának gyakorisága egyre kisebb.</p>
+                <div> a, Mennyi volt az átlagos kosárérték?</div>
+                <div> b, Hányszorosa volt a legnagyobb kosárérték az átlagosnak?</div>
+                <div> c, Volt-e 50ezer forint feletti kosárérték?</div>
+                <div> d, A rendelések hány százalékában vásároltak több pár cipőt is?</div>
+        </li>
+    </ul>
+
+    <div id="arak"></div>
+    <div id="a-4" class="second"></div>
+    <div id="b-4" class="second"></div>
+    <div id="c-4" class="second"></div>
+    <div id="d-4" class="second"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
